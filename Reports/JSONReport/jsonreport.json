@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17740994900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be in ASl login page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_ASl_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-07T15:00:32.151Z",
+        "line": 18,
+        "name": "user fill the all required deatails and moving into next page",
+        "description": "",
+        "id": "to-check-the-login-page-of-asl-airlines-by-invalid-username-and-password;user-fill-the-all-required-deatails-and-moving-into-next-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19727307400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click the departure and arrival airport date and passenger deatils",
+            "match": {
+              "location": "StepDefinition2.user_click_the_departure_and_arrival_airport_date_and_passenger_deatils()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 322578700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click the search button",
+            "match": {
+              "location": "StepDefinition2.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1984900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user will navigate the flight details page",
+            "match": {
+              "location": "StepDefinition2.user_will_navigate_the_flight_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To check the login page of ASl airlines by invalid username and password",
+    "description": "",
+    "id": "to-check-the-login-page-of-asl-airlines-by-invalid-username-and-password",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

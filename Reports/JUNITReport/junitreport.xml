@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.832319">
+<testcase classname="To check the login page of ASl airlines by invalid username and password" name="user fill the all required deatails and moving into next page" time="37.832319">
+<system-out><![CDATA[Given user should be in ASl login page......................................passed
+When user click the departure and arrival airport date and passenger deatils.passed
+And user click the search button............................................passed
+Then user will navigate the flight details page.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
